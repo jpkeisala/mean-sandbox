@@ -1,0 +1,5 @@
+.container
+	h1 Users
+	table.table.table-bordered
+			tr(ng-repeat="user in users")
+				td {{user.firstName + ' ' + user.lastName}}
